@@ -1102,8 +1102,12 @@ section,
   }
 
   .specials .nav-link.active {
-    color: var(--accent-color);
+    color: #ffffff; /* Change to white or any contrasting color */
     background: var(--accent-color);
+  }
+
+  .specials .details h3 {
+    color: #ffffff; /* Ensure heading text is visible on orange background */
   }
 }
 
